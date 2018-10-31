@@ -44,4 +44,5 @@ group :development, :test do
 end
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'dotenv-rails'
 # Access an IRB console on exception pages or by using <%= console %> in views

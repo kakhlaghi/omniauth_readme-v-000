@@ -3,7 +3,8 @@ class CreateUsers < ActiveRecord::Migration
     create_table :users do |t|
         t.string = :name
         t.string = :email
-        t.inteher = :uid
+        t.integer = :uid
+        t
     end
   end
 end
